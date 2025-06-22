@@ -48,14 +48,14 @@ Pillow
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/prasadloki/cats-vs-dogs-streamlit.git
-cd cats-vs-dogs-streamlit
+git clone https://github.com/prasadloki/catdog-classifier.git
+cd catdog-classifier
 ```
 
 2. Run the Streamlit app:
 
 ```bash
-streamlit run cats_vs_dogs_streamlit.py
+streamlit run catdog-classifier.py
 ```
 
 3. The app will open in your browser at `http://localhost:8501`
@@ -81,19 +81,13 @@ Confidence: 93.1%
 
 ---
 
-## 🌐 Live Demo
-
-> [Coming soon — will be added after deployment on Streamlit Cloud]
-
----
-
 ## 🙋‍♂️ Author
 
 **Prasad Bodduboina**
 
 - GitHub: [@prasadloki](https://github.com/prasadloki)
-- LinkedIn: [https://linkedin.com/in/YOUR-LINKEDIN](https://linkedin.com/in/YOUR-LINKEDIN)  
-- Email: your.email@example.com
+- LinkedIn: https://www.linkedin.com/in/prasad421/  
+- Email: bodduboinaprasad@gmail.com
 
 ---
 
@@ -107,6 +101,3 @@ Confidence: 93.1%
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
