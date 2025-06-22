@@ -10,7 +10,9 @@ A simple and interactive web application built using **Streamlit** that classifi
 - Upload any image of a cat or a dog  
 - Get instant predictions with confidence percentage  
 - Simple and clean UI using Streamlit  
-- Powered by a pretrained machine learning model  
+- Powered by a pretrained machine learning model
+- Click a button to download data and train a model from scratch
+
 
 ---
 
@@ -60,13 +62,16 @@ streamlit run catdog-classifier.py
 
 3. The app will open in your browser at `http://localhost:8501`
 
+4. After launching the app, click the **"Prepare & Train"** button to start downloading data and training the model (this may take a few minutes). Once trained, you can upload an image for classification.
+
+
 ---
 
 ## 🧠 Model Info
 
-- The app uses a pretrained model saved as `model.h5`
-- Make sure `model.h5` is present in the same directory as the script
-- Model is loaded using TensorFlow/Keras and performs binary classification (cat vs dog)
+- The model is trained live using a button click in the Streamlit app
+- Training uses the Cats vs Dogs dataset from TensorFlow's official source
+- The model is stored in memory using `st.session_state` and not saved to disk
 
 ---
 
